@@ -4,7 +4,7 @@ export CARDANO_NODE_PATH=/home/cardano
 export CARDANO_NODE_SOCKET_PATH=$CARDANO_NODE_PATH/node.socket
 export PATH=$PATH:/usr/share/cardano
 
-systemctl status cardano-passive-testnet | cat
+systemctl status cardano-node | cat
 cardano-cli --version
 
 online=1
